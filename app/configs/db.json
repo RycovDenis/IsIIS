@@ -1,0 +1,11 @@
+{
+"mysql": {
+    "host": "localhost",
+    "port": "3306",
+    "database": "isiis",
+    "user": "isiis",
+    "password": "rs6prTf2pBRGgv4V",
+    "timeout": 10000,
+    "charset": "UTF8_GENERAL_CI"
+  }
+}

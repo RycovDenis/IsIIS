@@ -1,0 +1,33 @@
+<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link href="/css/login.css" rel="stylesheet">
+<body class="text-center">
+    <form class="form-signin" action='/login' method='POST'>
+        {{!-- <img class="mb-4" src="/images/brand/bootstrap-solid.svg" alt="" width="72" height="72"> --}}
+        <h1 class="h3 mb-3 font-weight-normal">{{HLW_MSG}}</h1>
+        <label for="inputEmail" class="sr-only">{{HLW_EMAIL}}</label>
+        <input type="email" name= "email" id="inputEmail" class="form-control" placeholder="{{HLW_EMAIL}}" required="" autofocus="">
+        <label for="inputPassword" class="sr-only">{{HLW_PASSW}}</label>
+        <input type="password" name="password" id="inputPassword" class="form-control" placeholder="{{HLW_PASSW}}"required="">
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> {{HLW_REMMI}}
+      </label>
+    </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">{{HLW_SIGN}}</button>
+        <p class="mt-5 mb-3 text-muted"><i>Denis_Rykov © {{ACR}}</i></p>
+  </form>

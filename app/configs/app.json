@@ -1,0 +1,11 @@
+{
+  "http": {
+    "port": 8080,
+    "host":"localhost"
+  },
+  "session": {
+    "secret": "KTZH.railways",
+    "resave": false,
+    "saveUninitialized": true
+  }
+}
